@@ -1,0 +1,10 @@
+/* style.css */
+
+
+.main1{
+    width:1200px;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    background-color: aliceblue;
+}

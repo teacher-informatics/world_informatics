@@ -27,6 +27,7 @@ header{
     display: flex;
     flex-direction:row;
     align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -44,8 +45,35 @@ header{
 .caption1{
     width:30%;
     height:auto;
-    color:darkgreen;
+    color:darkblue;
     font-size:24px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+nav{
+    width:50%;
+    height:auto;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+nav>li{
+    list-style-type: none;
+}
+
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size:18px;
+    font-style:italic;
+    font-weight: bold;
+}
+
+a:hover{
+    cursor: pointer;
+    color:darkgreen;
+    text-decoration: underline;
 }

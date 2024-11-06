@@ -51,6 +51,11 @@ header{
     text-transform: uppercase;
 }
 
+.menu_buttons{
+    width:50px;
+    height:50px;
+}
+
 nav{
     width:50%;
     height:auto;
@@ -153,6 +158,29 @@ footer{
     font-family: Monotype Corsiva;
 }
 
+.toggle{
+    color:white;
+    top:30px;
+    left:30px;
+    font-size:30px;
+    display:none;
+  }
+  
+  .toggle:hover{
+    cursor:pointer;
+  }
+  
+  .close{
+    color:white;
+    top:24px;
+    left:30px;
+    font-size:50px;
+    display:none;
+  }
+  
+  .close:hover{
+    cursor:pointer;
+  }
 
 /* media queries */
 
@@ -172,6 +200,34 @@ footer{
     .info_author{font-size:16px;}
     .info{font-size: 14px;}
 
+    .caption1{
+        font-size: 16px;
+    }
+
+    .toggle{
+        display: block;
+    }
+
+    nav{
+        width:95%;
+        background-color: #065e84;
+        position: fixed;
+        top:130px;
+        left:8px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content:center;
+        display: none;
+        
+    }
+
+    nav li{
+        margin-top:20px;
+    }
+    nav a{
+        font-size: 14px;
+    }
   }
 
 

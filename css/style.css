@@ -149,4 +149,32 @@ footer{
 .info_author{
     width:40%;
     font-size:20px;
+    font-style: italic;
+    font-family: Monotype Corsiva;
 }
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    .content1_blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content1_block{
+        width:70%;
+        height:auto;
+        margin-top:30px;
+    }
+
+    .info_author{font-size:16px;}
+    .info{font-size: 14px;}
+
+  }
+
+
+
+
+ 

@@ -209,9 +209,9 @@ footer{
     }
 
     nav{
-        width:95%;
+        width:98%;
         background-color: #065e84;
-        position: fixed;
+        position: absolute;
         top:130px;
         left:8px;
         display: flex;

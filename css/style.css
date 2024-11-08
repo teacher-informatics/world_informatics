@@ -311,3 +311,15 @@ footer{
     flex-direction: column;
     text-align: center;
 }
+
+
+.content2_blocks{
+    width:100%;
+    height:auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}

@@ -200,6 +200,7 @@ footer{
 
     .caption1{
         font-size: 16px;
+        margin-left:-10%;
     }
 
     .toggle{
@@ -253,7 +254,7 @@ footer{
     .caption1{
         font-size: 22px;
     }
-
+ 
     nav a{
         font-size: 18px;
     }
@@ -287,3 +288,17 @@ footer{
         font-size: 20px;
     }
   }
+
+
+  /* tasks.html */
+
+  .main2{
+    width:100%;
+    max-width: 100%;
+    min-width: 50%;
+    height:1200px;
+    background-color: beige;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+}

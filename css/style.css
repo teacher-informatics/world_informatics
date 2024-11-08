@@ -302,3 +302,12 @@ footer{
     display:flex;
     flex-direction: column;
 }
+
+
+.content2{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

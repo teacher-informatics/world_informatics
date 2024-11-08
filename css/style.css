@@ -316,10 +316,22 @@ footer{
 .content2_blocks{
     width:100%;
     height:auto;
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 
+}
+
+
+.content2_block{
+    width:22%;
+    box-shadow: 2px 2px 3px #2a8ab4;
+    border-radius: 10px;
+    margin-top:30px;
+}
+
+
+.content2_block>img{
+    width:79%;
 }

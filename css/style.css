@@ -453,8 +453,7 @@ footer{
 
 .game_container{
     width:100%;
-    height:1200px;
-    background-color:aquamarine;
+    height:auto;
     display: flex;
     flex-direction: column;
 }
@@ -466,10 +465,9 @@ footer{
 
 .block_game1{
     width:100%;
-    height:1000px;
+    height:500px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
 }
 
 .draggable_elements{

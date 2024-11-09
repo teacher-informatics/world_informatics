@@ -466,7 +466,7 @@ footer{
 
 .block_game1{
     width:100%;
-    height:500px;
+    height:auto;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -496,7 +496,7 @@ footer{
 
 .droppable_elements{
     width:100%;
-    height:22%;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -520,3 +520,278 @@ footer{
 .new_block{
     background-color: lightgrey;
 }
+
+/* media queries for task1.html */
+
+
+@media only screen and (max-width: 600px) {
+    .block_game1{
+        display: flex;
+        flex-direction: row;
+    }
+    .draggable_elements{
+        width:50%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .block_elem{
+        width:40%;
+        min-height: 150px;
+        max-height: 160px;
+        border:1px solid darkblue;
+        margin-top:20px;
+    }
+
+
+    .droppable_elements{
+        width:50%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+
+    .droppable{
+        width:40%;
+        min-height: 150px;
+        max-height: 160px;
+        border:1px solid darkblue;
+        margin-top:20px;
+    }
+    
+    .droppable>h2{
+        font-size:14px;
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .block_game1{
+        display: flex;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .draggable_elements{
+        width:50%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .block_elem{
+        width:40%;
+        min-height: 150px;
+        max-height: 160px;
+        border:1px solid darkblue;
+        margin-top:20px;
+    }
+
+
+    .droppable_elements{
+        width:50%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+
+    .droppable{
+        width:40%;
+        min-height: 150px;
+        max-height: 160px;
+        border:1px solid darkblue;
+        margin-top:20px;
+    }
+    
+    .droppable>h2{
+        font-size:14px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .block_game1{
+        display: flex;
+        height: auto;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .draggable_elements{
+        width:50%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .block_elem{
+        width:40%;
+        min-height: 150px;
+        max-height: 160px;
+        border:1px solid darkblue;
+        margin-top:20px;
+        text-align: center;
+    }
+
+   
+
+    .droppable_elements{
+        width:50%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0px;
+    }
+
+    .droppable{
+        width:40%;
+        min-height: 150px;
+        max-height: 180px;
+        border:1px solid darkblue;
+        margin-top:25px;
+        text-align: center;
+    }
+    
+    .droppable>h2{
+        font-size:14px;
+    }
+
+    .block_elem>img{
+        width:80%;
+    }
+    
+    .droppable>img{
+        width:80%;
+    }
+
+}
+
+
+@media only screen and (min-width: 992px){
+    .block_game1{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .draggable_elements{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .block_elem{
+        width:15%;
+        min-height: 200px;
+        max-height: 280px;
+        border:1px solid darkblue;
+    }
+    
+    .block_elem>img{
+        width:100%;
+    }
+    
+    
+    
+    .droppable_elements{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top:40px;
+    }
+    
+    .droppable{
+        width:15%;
+        min-height: 200px;
+        max-height: 280px;
+        border:1px solid darkblue;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .droppable>img{
+        width:100%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .block_game1{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .draggable_elements{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .block_elem{
+        width:15%;
+        min-height: 200px;
+        max-height: 280px;
+        border:1px solid darkblue;
+    }
+    
+    .block_elem>img{
+        width:100%;
+    }
+    
+    
+    
+    .droppable_elements{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top:40px;
+    }
+    
+    .droppable{
+        width:15%;
+        min-height: 200px;
+        max-height: 280px;
+        border:1px solid darkblue;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .droppable>img{
+        width:100%;
+    }
+    
+   
+}
+

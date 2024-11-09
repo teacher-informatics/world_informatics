@@ -471,3 +471,22 @@ footer{
     flex-direction: column;
     background-color: aqua;
 }
+
+.draggable_elements{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block_elem{
+    width:15%;
+    height:auto;
+    border:1px solid darkblue;
+}
+
+.block_elem>img{
+    width:100%;
+}

@@ -456,6 +456,7 @@ footer{
     height:auto;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .game_caption{
@@ -468,6 +469,7 @@ footer{
     height:500px;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .draggable_elements{
@@ -499,7 +501,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top:30px;
+    margin-top:40px;
 }
 
 .droppable{

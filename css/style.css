@@ -490,3 +490,26 @@ footer{
 .block_elem>img{
     width:100%;
 }
+
+
+
+.droppable_elements{
+    width:100%;
+    height:22%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.droppable{
+    width:15%;
+    height:auto;
+    border:1px solid darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block_elem>img{
+    width:100%;
+}

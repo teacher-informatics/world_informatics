@@ -508,6 +508,6 @@ footer{
     font-weight: bold;
 }
 
-.block_elem>img{
+.droppable>img{
     width:100%;
 }

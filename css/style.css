@@ -449,3 +449,12 @@ footer{
     }
 }
 
+/* task1.html */
+
+.game_container{
+    width:100%;
+    height:1200px;
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: column;
+}

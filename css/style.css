@@ -481,7 +481,8 @@ footer{
 
 .block_elem{
     width:15%;
-    height:auto;
+    min-height: 200px;
+    max-height: 280px;
     border:1px solid darkblue;
 }
 
@@ -503,7 +504,8 @@ footer{
 
 .droppable{
     width:15%;
-    height:auto;
+    min-height: 200px;
+    max-height: 280px;
     border:1px solid darkblue;
     text-align: center;
     font-weight: bold;
@@ -511,4 +513,8 @@ footer{
 
 .droppable>img{
     width:100%;
+}
+
+.new_block{
+    background-color: lightgrey;
 }

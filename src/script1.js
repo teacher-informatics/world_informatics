@@ -52,4 +52,8 @@ function drop(event) {
   } else {
     event.target.classList.remove("droppable-hover");
   }
+
+  setTimeout(()=>{
+    location.reload()
+  },30000)
 }

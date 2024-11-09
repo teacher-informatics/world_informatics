@@ -792,6 +792,14 @@ footer{
         width:100%;
     }
     
-   
+   .droppable:nth-child(2)>img{
+    width:80%;
+   }
+   .droppable:nth-child(3)>img{
+    width:87%;
+   }
+   .droppable:nth-child(5)>img{
+    width:87%;
+   }
 }
 

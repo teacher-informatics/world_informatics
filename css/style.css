@@ -817,3 +817,14 @@ footer{
     background-color: bisque;
     height:1200px;
 }
+
+
+
+.block_game2{
+    width:100%;
+    height:800px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}

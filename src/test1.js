@@ -101,7 +101,7 @@ let score = 0;
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = 'Next question';
+    nextButton.innerHTML = 'Наступне запитання';
     showQuestion();
 }
 
@@ -154,8 +154,8 @@ function selectAnswer(event){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `Your scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = 'Play again';
+    questionElement.innerHTML = `Кількість правильних відповідей ${score} з ${questions.length}!`;
+    nextButton.innerHTML = 'Пройти тест з початку';
     nextButton.style.display = 'block';
 }
 

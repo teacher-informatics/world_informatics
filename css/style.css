@@ -826,5 +826,77 @@ footer{
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
 }
+
+.test_game{
+    width:60%;
+    height:400px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+
+#question{
+    width:90%;
+    font-size:24px;
+    font-weight: bold;
+    color:darkblue;
+    padding:20px;
+    text-align: left;
+}
+
+.answers{
+    width:100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    width:80%;
+    margin-left:20px;
+    margin-top:20px;
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid darkblue;
+    background-color: white;
+    text-align: left;
+    transition:background-color 0.5s ease-in-out;}
+
+
+.btn:hover:not([disabled]){
+    cursor: pointer;
+    background-color: #CCDDEC;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next_btn{
+    background-color: darkred;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+
+
+
+#next_btn:hover{
+    cursor:pointer;
+}
+
+.correct{
+    background-color: #ADF0A3;
+}
+
+.incorrect{
+    background-color: #EC8080;
+}
+
+
+

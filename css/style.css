@@ -830,11 +830,12 @@ footer{
 }
 
 .test_game{
-    width:60%;
+    width:50%;
     height:400px;
-    background-color: azure;
+    background-color:#C2E5FF;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
 }
 
 #question{

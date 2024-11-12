@@ -815,6 +815,8 @@ footer{
     display:flex;
     flex-direction: column;
     height:auto;
+    background-image: url("../img/image1.jpg");
+    background-size: cover;
 }
 
 
@@ -827,15 +829,17 @@ footer{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    
 }
 
 .test_game{
     width:50%;
     height:400px;
-    background-color:#C2E5FF;
+    background-color:white;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+    border:2px solid darkblue;
 }
 
 #question{

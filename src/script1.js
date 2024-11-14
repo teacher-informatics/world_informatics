@@ -19,6 +19,7 @@ function dragStart(event) {
 }
 
 function dragEnter(event) {
+  event.preventDefault();
   event.target.classList.add("droppable-hover");
 }
 

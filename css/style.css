@@ -965,3 +965,24 @@ footer{
         margin-left: 33%;
     }
   }
+
+/* task5.html */
+
+
+.game_task{
+    width:100%;
+    text-align: center;
+}
+
+
+.main4{
+    width:100%;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    background-image: url("../img/image2.jpg");
+    background-size: cover;
+}

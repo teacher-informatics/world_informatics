@@ -18,6 +18,7 @@ function dragStart(event) {
   event.dataTransfer.setData("text", event.target.id);
 }
 
+
 function dragEnter(event) {
   event.preventDefault();
   event.target.classList.add("droppable-hover");
@@ -58,3 +59,12 @@ function drop(event) {
     location.reload()
   },30000)
 }
+
+
+
+
+
+
+draggableElems.forEach((elem) => {
+  elem.addEventListener("touchstart", touchStart);
+});

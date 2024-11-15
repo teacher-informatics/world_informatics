@@ -67,4 +67,5 @@ function drop(event) {
 
 draggableElems.forEach((elem) => {
   elem.addEventListener("touchstart", touchStart);
+  alert('touch start');
 });

@@ -999,3 +999,13 @@ footer{
     background-color: aqua;
 
 }
+
+
+
+.info_caption{
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:darkblue;
+    text-align: center;
+}

@@ -986,3 +986,16 @@ footer{
     background-image: url("../img/image2.jpg");
     background-size: cover;
 }
+
+
+.block_info{
+    width:100%;
+    max-width: 100%;
+    min-width: 50%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    height:1200px;
+    background-color: aqua;
+
+}

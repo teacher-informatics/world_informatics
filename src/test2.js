@@ -41,14 +41,6 @@ const questions = [
         ]
     },
     {
-        question:"Для спрайтів можна складати програми, використовуючи команди із ...",
-        answers:[
-            { text: "Різних блоків", correct: true },
-            { text: "Одного блоку", correct: false },
-            { text: "Двох блоків", correct: false },
-        ]
-    },
-    {
         question:"Для виконання команд  потрібно натиснути на  кнопку...",
         answers:[
             { text: "Червоний квадрат", correct: false },
@@ -65,14 +57,6 @@ const questions = [
         ]
     },
     {
-        question:"Який розділ у програмному середовищі Scratch може забезпечити пересування персонажів по сцені?",
-        answers:[
-            { text: "Рух", correct: true },
-            { text: "Датчики", correct: false },
-            { text: "Керувати", correct: false },
-        ]
-    },
-    {
         question:"Який розділ у програмному середовищі Scratch може забезпечити зміну образів спрайту?",
         answers:[
             { text: "Рух", correct: false },
@@ -86,6 +70,22 @@ const questions = [
             { text: "Лінійний", correct: true },
             { text: "Послідовний", correct: false },
             { text: "Циклічний", correct: false },
+        ]
+    },
+    {
+        question:"Алгоритм, в якому одна й та сама дія виконується кілька разів ...",
+        answers:[
+            { text: "Лінійний", correct: false },
+            { text: "Послідовний", correct: false },
+            { text: "Циклічний", correct: true },
+        ]
+    },
+    {
+        question:"Алгоритм з умовою залежно від якої виконуються або не виконуються команди...",
+        answers:[
+            { text: "Лінійний", correct: false },
+            { text: "Умовний", correct: false },
+            { text: "Розгалужений", correct: true },
         ]
     }
 ]

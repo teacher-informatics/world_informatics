@@ -1009,3 +1009,15 @@ footer{
     color:darkblue;
     text-align: center;
 }
+
+
+.list_info{
+    width:100%;
+    max-width: 100%;
+    min-width: 50%;
+    display:flex;
+    flex-direction: column;
+    height:1200px;
+    background-color:lightblue;
+
+}

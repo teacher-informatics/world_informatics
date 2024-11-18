@@ -1021,3 +1021,16 @@ footer{
     background-color:lightblue;
 
 }
+
+
+.list_elements{
+    width:84%;
+    height:1000px;
+    padding-left:8%;
+    margin-top:30px;
+}
+
+.list_elements>li{
+    margin-top:20px;
+    margin-bottom:20px;
+}

@@ -1030,3 +1030,11 @@ footer{
     margin-top:20px;
     margin-bottom:20px;
 }
+
+.list_elements a{
+    color:darkblue;
+}
+
+.list_elements a:visited{
+    color:#065e84;
+}

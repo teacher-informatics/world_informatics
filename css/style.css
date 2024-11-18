@@ -996,8 +996,6 @@ footer{
     display:flex;
     flex-direction: column;
     height:1200px;
-    background-color: aqua;
-
 }
 
 
@@ -1018,8 +1016,6 @@ footer{
     display:flex;
     flex-direction: column;
     height:1200px;
-    background-color:lightblue;
-
 }
 
 

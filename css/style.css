@@ -1004,7 +1004,7 @@ footer{
     margin:0 auto;
     display:flex;
     flex-direction: column;
-    height:1200px;
+    height:auto;
 }
 
 

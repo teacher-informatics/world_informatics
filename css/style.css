@@ -1073,3 +1073,7 @@ footer{
 }
 
 
+h2{
+    word-break: normal;
+    word-break: break-word;
+}

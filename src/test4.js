@@ -28,7 +28,7 @@ const questions = [
         answers:[
             { text: "Ctrl+M", correct: false },
             { text: "Shift+C", correct: false },
-            { text: "Ctrl+V", correct: true },
+            { text: "Ctrl+C", correct: true },
         ]
     },
     {
@@ -66,13 +66,13 @@ const questions = [
     {
         question:"Види списків у текстовому редакторі. ",
         answers:[
-            { text: "нумерований, маркірований, багаторівневий", correct: true },
-            { text: "символьний, багаторівневий", correct: false },
-            { text: "цифровий, маркірований", correct: false },
+            { text: "Нумерований, маркірований, багаторівневий", correct: true },
+            { text: "Символьний, багаторівневий", correct: false },
+            { text: "Цифровий, маркірований", correct: false },
         ]
     },
     {
-        question:"Таблиця у текстовому редакторі складається із ...  ",
+        question:"Таблиця у текстовому редакторі складається із  ",
         answers:[
             { text: "рядків", correct: false },
             { text: "рядків і стовпчиків", correct: true },
@@ -82,8 +82,8 @@ const questions = [
     {
         question:"Чи можна розміщувати графічні зображення у текстовому документі? ",
         answers:[
-            { text: "так", correct:true },
-            { text: "ні", correct: false },
+            { text: "Так", correct:true },
+            { text: "Ні", correct: false },
         ]
     },
 ]

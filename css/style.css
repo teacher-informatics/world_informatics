@@ -921,6 +921,10 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
+    .test_game{
+        width:70%;
+    }
+
     #question{
         font-size: 16px;
     }
@@ -932,6 +936,9 @@ footer{
 
 
 @media only screen and (min-width: 600px){
+    .test_game{
+        width:70%;
+    }
     #question{
         font-size: 16px;
     }
@@ -944,6 +951,9 @@ footer{
 
 
 @media only screen and (min-width: 768px){
+    .test_game{
+        width:60%;
+    }
     #question{
         font-size: 20px;
     }
@@ -956,6 +966,9 @@ footer{
 
 
 @media only screen and (min-width: 992px) {
+    .test_game{
+        width:55%;
+    }
     #question{
         font-size: 22px;
     }
@@ -966,6 +979,9 @@ footer{
   } 
   
   @media only screen and (min-width: 1200px) {
+    .test_game{
+        width:50%;
+    }
     #question{
         font-size: 24px;
     }

@@ -239,6 +239,14 @@ footer{
         font-size: 14px;
     }
     
+    .logo{
+        margin-left:20px;
+    }
+    .logo>img{
+        width:100%;
+    }
+    
+
   }
 
 
@@ -254,6 +262,12 @@ footer{
         font-size: 16px;
     }
 
+    .logo{
+        margin-left:20px;
+    }
+    .logo>img{
+        width:80%;
+    }
   }
   
 
@@ -268,7 +282,12 @@ footer{
     nav a{
         font-size: 18px;
     }
-
+    .logo{
+        margin-left:20px;
+    }
+    .logo>img{
+        width:70%;
+    }
   } 
 
 
@@ -284,6 +303,12 @@ footer{
     nav a{
         font-size: 20px;
     }
+    .logo{
+        margin-left:20px;
+    }
+    .logo>img{
+        width:60%;
+    }
   } 
   
   @media only screen and (min-width: 1200px) {
@@ -296,6 +321,14 @@ footer{
 
     nav a{
         font-size: 20px;
+    }
+
+    .logo{
+        margin-left:20px;
+    }
+    .logo>img{
+        width:50%;
+
     }
   }
 

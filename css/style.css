@@ -521,6 +521,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    touch-action: none;
 }
 
 .block_elem{

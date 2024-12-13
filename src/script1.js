@@ -76,10 +76,10 @@ droppableElems.forEach((elem) => {
 });
 
 
-function touchStart(event) {
+function touchMove(event) {
   event.preventDefault();
   event.target.classList.add("droppable-hover");
-  alert('start');
+  alert('move');
 }
 
 

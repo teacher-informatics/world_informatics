@@ -82,13 +82,6 @@ function touchStart(event) {
 }
 
 
-function touchMove(event) {
-  event.preventDefault();
-  alert('touch move');
-}
 
-function touchLeave(event) {
-  event.target.classList.remove("droppable-hover");
-  alert('touch live');
-}
+
 

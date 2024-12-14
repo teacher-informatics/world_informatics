@@ -66,20 +66,22 @@ function drop(event) {
 
 
 draggableElems.forEach((elem) => {
-  elem.addEventListener("touchmove", touchMove);
+  elem.addEventListener("touchstart", touchStart);
 });
 
 
 
-function touchMove(event) {
-  event.preventDefault();
-  alert('move');
-  var touchLocation = e.targetTouches[0];
-  elem.style.left = touchLocation.pageX + 'px';
-  elem.style.top = touchLocation.pageY + 'px';
+function touchStart(event){
+  let img_id = event.target.id;
+  console.log(img_id);
 }
 
 
+droppableElems.forEach((elem) => {
+  elem.addEventListener("touchmove", touchMove);
+});
 
-
-
+function touchMove(event){
+  event.preventDefault();
+  event.target.classList.add("droppable-hover");
+}

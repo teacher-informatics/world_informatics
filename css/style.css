@@ -777,6 +777,10 @@ footer{
     .droppable>img{
         width:100%;
     }
+
+    .droppable>h2{
+        font-size:16px;
+    }
 }
 
 
@@ -834,6 +838,9 @@ footer{
         width:100%;
     }
     
+    .droppable>h2{
+        font-size:18px;
+    }
    .droppable:nth-child(2)>img{
     width:80%;
    }
@@ -1109,4 +1116,9 @@ footer{
 h2{
     word-break: normal;
     word-break: break-word;
+}
+
+.red{
+    border:1px solid red;
+    background-color: yellow;
 }

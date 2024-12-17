@@ -1,5 +1,3 @@
-/* drag and drop elements */
-
 const draggableElems = document.querySelectorAll(".draggable");
 const droppableElems = document.querySelectorAll(".droppable");
 
@@ -58,30 +56,4 @@ function drop(event) {
   setTimeout(()=>{
     location.reload()
   },30000)
-}
-
-
-
-
-
-
-draggableElems.forEach((elem) => {
-  elem.addEventListener("touchstart", touchStart);
-});
-
-
-
-function touchStart(event){
-  let img_id = event.target.id;
-  console.log(img_id);
-}
-
-
-droppableElems.forEach((elem) => {
-  elem.addEventListener("touchmove", touchMove);
-});
-
-function touchMove(event){
-  event.preventDefault();
-  event.target.classList.add("droppable-hover");
 }

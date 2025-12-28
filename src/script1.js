@@ -57,3 +57,83 @@ function drop(event) {
     location.reload()
   },30000)
 }
+
+
+if (isTouchDevice) {
+  const draggableElems = document.querySelectorAll(".draggable");
+  const droppableElems = document.querySelectorAll(".droppable");
+
+  let activeDrag = null;
+  let offsetX = 0;
+  let offsetY = 0;
+
+  draggableElems.forEach(elem => {
+    elem.addEventListener("pointerdown", e => {
+      if (elem.getAttribute("draggable") === "false") return;
+
+      activeDrag = elem;
+      elem.setPointerCapture(e.pointerId);
+
+      const rect = elem.getBoundingClientRect();
+      offsetX = e.clientX - rect.left;
+      offsetY = e.clientY - rect.top;
+
+      elem.style.position = "absolute";
+      elem.style.zIndex = "1000";
+    });
+  });
+
+  document.addEventListener("pointermove", e => {
+    if (!activeDrag) return;
+
+    activeDrag.style.left = e.clientX - offsetX + "px";
+    activeDrag.style.top = e.clientY - offsetY + "px";
+
+    droppableElems.forEach(drop => {
+      drop.classList.toggle(
+        "droppable-hover",
+        isOver(activeDrag, drop)
+      );
+    });
+  });
+
+  document.addEventListener("pointerup", () => {
+    if (!activeDrag) return;
+
+    droppableElems.forEach(drop => {
+      if (isOver(activeDrag, drop)) {
+        handleDrop(activeDrag, drop);
+      }
+      drop.classList.remove("droppable-hover");
+    });
+
+    activeDrag = null;
+  });
+
+  function handleDrop(draggableElem, droppableElem) {
+    if (draggableElem.id === droppableElem.dataset.draggableId) {
+      droppableElem.classList.add("dropped");
+      draggableElem.parentElement.classList.add("new_block");
+      draggableElem.classList.add("dragged");
+      draggableElem.setAttribute("draggable", "false");
+
+      draggableElem.style.position = "static";
+      draggableElem.style.zIndex = "auto";
+
+      droppableElem.appendChild(draggableElem);
+    }
+  }
+
+  function isOver(a, b) {
+    const r1 = a.getBoundingClientRect();
+    const r2 = b.getBoundingClientRect();
+    return !(
+      r1.right < r2.left ||
+      r1.left > r2.right ||
+      r1.bottom < r2.top ||
+      r1.top > r2.bottom
+    );
+  }
+
+  setTimeout(() => location.reload(), 30000);
+}
